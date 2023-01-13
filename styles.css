@@ -1,0 +1,33 @@
+@import url("/node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css");
+@import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-weight: normal;
+}
+
+h1 {
+  color: #ed6436;
+}
+h2 {
+  color: #181818;
+}
+
+.activities-selector {
+  display: flex;
+  width: 4rem;
+  height: 6rem;
+  justify-content: space-around;
+  flex: 1;
+}
+.images-container {
+  display: flex;
+}
+
+img {
+  border-radius: 24px;
+}
